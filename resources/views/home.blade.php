@@ -95,6 +95,10 @@
         form button[type="submit"]:hover {
             background-color: #218838;
         }
+        .button-container {
+            display: flex;
+            gap: 10px;
+        }
         
     </style>
     <script src="{{ asset('js/app.js') }}" defer></script>
